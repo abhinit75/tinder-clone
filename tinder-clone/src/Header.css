@@ -1,0 +1,14 @@
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100; /* to keep objects fixed at the top */
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.header_logo {
+    object-fit: contain;
+    height: 40px;
+
+}
+
